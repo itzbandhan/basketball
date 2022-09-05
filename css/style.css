@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: poppins;
+}
+/* .container header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/bg.png");
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/bg.jpg");
+} */
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+header::after {
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* content: ""; */
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+
+
+
+
+
+    position: fixed;
+    z-index: 9999;
+
+
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    padding: .7rem;
+    margin: 0 7px;
+}
+header nav ul li a{
+    color: white;
+    font-weight: 600;
+}
+.logo{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+.history{
+    background-color: #ffbebe;
+    height: 100%;
+}
+.hero-main{
+    position: relative;
+    top: 15%;
+}
+.bb-header{
+    font-weight: bolder;
+    font-size: 3rem;
+    letter-spacing: .9rem;
+   
+}
+.history-main{
+    background: rgba(0, 0, 0, .3);
+    margin: 4rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    padding: 4rem;
+    
+}
+.mty{
+    height: 10vh;
+}
